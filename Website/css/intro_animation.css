@@ -1,0 +1,30 @@
+.rotatingCircleContainer {
+  font-family: 'HP Simplified';
+  font-weight: 300;
+  font-size: 4.5em;
+  color: #fff;
+  padding-top:7%;
+  text-align: center;
+}
+.circle {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.circle-dark-dashed {
+  border-radius: 9.4em;
+  background-color: transparent;
+  border: 2px dashed #fff;
+  width: 8.3em;
+  height: 8.3em;
+}
+.small-dark-dashed {
+  border-radius: 8.8em;
+  background-color: transparent;
+  border: 2px dashed #fff;
+  width: 7.7em;
+  height: 7.7em;
+}

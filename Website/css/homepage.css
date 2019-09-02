@@ -1,0 +1,69 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400);
+html{
+    background-image: linear-gradient(to top,#fbc2eb, #a6c1ee);
+    background-repeat: no-repeat;
+    min-height:100%;
+ }
+body{
+    overflow: hidden;
+}
+.top-bar{
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 25px;
+    padding-top: 20px;
+    padding-bottom: 65px;
+}
+.top-nav {
+    text-decoration: none;
+    padding: 30px;
+    color: black;
+}
+.top-nav-active{
+    padding: 30px;
+    color: white;
+}
+.first-name, .last-name{
+    display: inline-block;
+    position: absolute;
+    left: 43%;
+    top: 39%;
+}
+
+.line {
+  position: absolute;
+  left: 37.5%;
+  top: 51%;
+  height: 3px;
+  width: 25%;
+  background-color: #402d2d;
+  transform: rotate(-23deg);
+}
+.socials{
+    padding-top: 120px;
+    position: relative;
+}
+.email{
+    background-image: url('../media/email (2).png');
+    display:inline-block;
+    background-size: 29px 29px;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    transition: background-image 0.25s ease-in-out;
+}
+.email:hover{
+    background-image: url('../media/gmail_color.png');
+}
+.messenger{
+    background-image: url('../media/messenger.png');
+    display:inline-block;
+    background-size: 29px 29px;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    transition: background-image 0.25s ease-in-out;
+}
+.messenger:hover{
+    background-image: url('../media/messenger_color.png');
+}

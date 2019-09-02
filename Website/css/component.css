@@ -1,0 +1,126 @@
+html, body { height: 100%; }
+
+.pt-perspective {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	-webkit-perspective: 1200px;
+	-moz-perspective: 1200px;
+	perspective: 1200px;
+}
+
+.pt-page {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	visibility: hidden;
+	overflow: hidden;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-transform: translate3d(0, 0, 0);
+	-moz-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+
+.pt-page-current,
+.no-js .pt-page {
+	visibility: visible;
+	z-index: 1;
+}
+
+.no-js body {
+	overflow: auto;
+}
+
+.pt-page-ontop {
+	z-index: 999;
+}
+
+.pt-page-1 {
+	background-image: linear-gradient(to top,#fab9e8, #a6c1ee);
+	height: 100vh;
+	overflow: scroll;
+}
+
+.pt-page-2 {
+	background-image: linear-gradient(to top,#fab9e8, #a6c1ee);
+}
+
+.pt-page-3 {
+	background-image: linear-gradient(to top,#fab9e8, #a6c1ee);
+    height: 100vh;
+	overflow: scroll;
+}
+
+/* Triggers (menu and button) */
+
+.pt-triggers {
+	position: absolute;
+	width: 300px;
+	z-index: 999999;
+	top: 20%;
+	left: 100%;
+	margin-top: 130px;
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-ms-transform: translateX(-50%); 
+	transform: translateX(-50%);
+}
+.rNavigation {
+	position: absolute;
+	width: 300px;
+	z-index: 999999;
+	top: 20%;
+	left: 15%;
+	margin-top: 130px;
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-ms-transform: translateX(-50%); 
+	transform: translateX(-50%);
+}
+.no-js .pt-triggers {
+	display: none;
+}
+
+.pt-touch-button {
+	border: none;
+	font-size: 40px;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding: 0px 20px;
+	height: 60px;
+	border-radius: 50%;
+	cursor: pointer;
+	display: block;
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+	box-shadow: 0 3px 0 rgba(0,0,0,0.1);
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.pt-touch-button {
+	background: #fff;
+	color: #aaa;
+}
+
+.pt-triggers .dl-menuwrapper button {
+	margin-bottom: 0;
+}
+
+.pt-touch-button:active {
+	box-shadow: 0 1px 0 rgba(0,0,0,0.1);
+}
+
+.touch .pt-triggers .dl-menuwrapper {
+	display: none;
+}

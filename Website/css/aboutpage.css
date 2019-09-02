@@ -1,0 +1,160 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400);
+section{
+    height: 100vh;
+}
+.about-sections{
+    font-family: 'Lato';
+    font-weight: 400;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    transform:scaleX(0.75);
+    padding-top: 20px;
+}
+.intro{
+    position: relative;
+    top: 150px;
+    font-weight: 400;
+    font-size: 35px;
+}
+.divider{
+    border-left: 1px solid white;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+}
+.divider-1{
+    top: 137%;
+}
+.divider-2{
+    top: 347%;
+}
+.profile-picture-container{
+    padding-left: 300px;
+    padding-top: 6%;
+    position: absolute;
+}
+.profile-picture{
+    height: 330px;
+    width: 350px;
+    border-radius: 50%;
+}
+.summary-container{
+    position: relative;
+    width: 500px;
+    padding-left: 55%;
+    padding-top: 9%;
+}
+p, .profile-summary, .skills, .coursework{
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 25px;
+    color: white;
+}
+.skills-container{
+    position: absolute;
+    padding-left: 57%;
+}
+.coursework-container{
+    position: absolute;
+    padding-left: 23%;
+}
+.list{
+    font-size: 20px;
+    font-weight: 300;
+    margin-left:0;
+}
+ul{
+    padding-left:0;
+}
+.study-abroad-container{
+    position: absolute;
+    padding-left: 320px;
+    padding-top: 35%;
+}
+.study-abroad-picture{
+    height: 150px;
+    width: 200px;
+}
+.study-abroad-descr-container{
+    padding-left: 550px;
+    padding-top: 33%;
+}
+.study-abroad-descr{
+    font-size: 18px;
+    font-weight: 300;
+}
+.ucialumni-picture{
+    height: 250px;
+    width: 250px;
+}
+.experience-container{
+    padding-left: 300px;
+    padding-top: 2%;
+    position: absolute;
+}
+.experience-descr-container{
+    font-family: 'Lato';
+    color: white;
+    padding-left: 55%;
+    padding-top: 4%;
+}
+.experience-title{
+    font-weight: 400;
+    font-size: 25px;
+}
+.experience-descr{
+    font-weight: 300;
+    font-size: 20px;
+}
+.involvement-container{
+    padding-left: 300px;
+    padding-top: 25%;
+    position: absolute;
+}
+.involvement-descr-container{
+    padding-left: 55%;
+    padding-top: 5%;
+    font-family: 'Lato';
+    color: white;
+}
+.csa-picture{
+    height: 150px;
+    width: 325px;
+}
+.involvement-title{
+    font-weight: 400;
+    font-size: 25px;
+}
+.involvement-descr{
+    font-weight: 300;
+    font-size: 20px;
+}
+.isle-of-skye-container{
+    position: absolute;
+    padding-left: 25%;
+    padding-top: 5%;
+}
+.pixelart-container{
+    position: absolute;
+    padding-left: 55%;
+    padding-top: 5%;
+}
+.isle-of-skye-img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+.pixel-art-img{
+    height: 300px;
+    width: 300px;
+}
+.interests-descr{
+    font-family: 'Lato';
+    font-weight: 300;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding-top: 30%;
+}
