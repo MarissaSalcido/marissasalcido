@@ -1,9 +1,8 @@
-@import url(http://fonts.googleapis.com/css?family=Lato:300,400);
 section{
     height: 100vh;
 }
 .about-sections{
-    font-family: 'Lato';
+    font-family: 'HP Simplified';
     font-weight: 400;
     color: white;
     font-size: 20px;
@@ -47,7 +46,7 @@ section{
     padding-top: 9%;
 }
 p, .profile-summary, .skills, .coursework{
-    font-family: 'Lato';
+    font-family: 'HP Simplified';
     font-weight: 400;
     font-size: 25px;
     color: white;
@@ -95,7 +94,7 @@ ul{
     position: absolute;
 }
 .experience-descr-container{
-    font-family: 'Lato';
+    font-family: 'HP Simplified';
     color: white;
     padding-left: 55%;
     padding-top: 4%;
@@ -116,7 +115,7 @@ ul{
 .involvement-descr-container{
     padding-left: 55%;
     padding-top: 5%;
-    font-family: 'Lato';
+    font-family: 'HP Simplified';
     color: white;
 }
 .csa-picture{
@@ -151,7 +150,7 @@ ul{
     width: 300px;
 }
 .interests-descr{
-    font-family: 'Lato';
+    font-family: 'HP Simplified';
     font-weight: 300;
     font-size: 20px;
     color: white;

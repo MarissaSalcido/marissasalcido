@@ -1,4 +1,3 @@
-@import url(http://fonts.googleapis.com/css?family=Lato:300,400);
 html{
     background-image: linear-gradient(to top,#fbc2eb, #a6c1ee);
     background-repeat: no-repeat;
@@ -8,8 +7,8 @@ body{
     overflow: hidden;
 }
 .top-bar{
-    font-family: 'Lato';
-    font-weight: 400;
+    font-family: 'HP Simplified';
+    font-weight: 300;
     font-size: 25px;
     padding-top: 20px;
     padding-bottom: 65px;
