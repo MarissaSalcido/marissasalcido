@@ -10,17 +10,18 @@
 		<link rel="stylesheet" type="text/css" href="css/homepage.css" />
 		<link rel="stylesheet" type="text/css" href="css/intro_animation.css" />
 		<link rel="stylesheet" type="text/css" href="css/aboutpage.css"/>
+		<link rel="stylesheet" type='text/css' href='css/projects.css'/>
 		<script src="js/modernizr.custom.js"></script>
 	</head>
 	<body>	
-		<div class="pt-triggers">
-			<button id="iterateEffects" class="pt-touch-button">></button>
+		<div class="lNavigation">
+			<button id="trans-right" class="arrow-button">></button>
 		</div>
 		<div class='rNavigation'>
-			<button id="prevEffects" class="pt-touch-button"><</button>
+			<button id="trans-left" class="arrow-button"><</button>
 		</div>
-		<div id="pt-main" class="pt-perspective">
-			<div class="pt-page pt-page-1">
+		<div id="main" class="perspective">
+			<div class="page page-1">
 				<div class='top-bar' style='text-align: center;'>
 					<span class='top-nav'>ABOUT ME</span>    
 					<span class='top-nav-active'>CONTACT</span> 
@@ -38,19 +39,72 @@
 					<a href = "https://m.me/MarissaSalcido" target='_blank' class = 'messenger'></a>
 				</div>
 			</div>
-			<div class="pt-page pt-page-2">
+			<div class="page page-2">
 				<div class='top-bar' style='text-align: center;'>
 					<span class='top-nav'>ABOUT ME</span>    
 					<span class='top-nav'>CONTACT</span> 
 					<span class='top-nav-active'>PROJECTS</span>
 				</div>
-				<div class='github-links'>
-					<a href='https://github.com/MSalonne/Othello'>Othello</a>
-					<a href='https://github.com/MSalonne/Information-Retrieval-Project'>Simple Search Engine</a>
-					<a href='file:///C:/Users/Marissa/Desktop/pagetransition/PageTransitions/index.html'>Personal Wesite</a>
-				</div>
+				<section>
+					<div class='grid'>
+						<div class='github-link'>
+							<a href='https://github.com/MarissaSalcido/Othello' target='_blank'>
+								<img src='media/othello.png' alt='othello' class='othello_img'>
+							</a>
+						</div>
+						<div class='github-link'>
+							<a href='https://github.com/MarissaSalcido/Information-Retrieval-Project' target='_blank'>
+								<img src='media/engine.png' alt='search engine'>
+							</a>
+						</div>
+						<div class='github-link'>
+							<a href='https://marissasalcido.me' target='_blank'>
+								<img src='media/website.png' alt='website'>
+							</a>	
+						</div>
+					</div>
+					<div class='bottom-arrow'>
+						<img src='media/doublearrow.png' alt='arrow' class='arrow'>
+					</div>
+				</section>
+				<section class='project-descr-container'>
+					<div class='text'>
+						Othello was the first game with a graphical interface that I developed for a programming course.
+						It is a two-person strategy game where the objective is to fill the entire board with your
+						pieces. This project was a challenge as it was my first game project, however I enjoyed the challenge
+						as it pushed my programming abilities.<br><br>
+						<span class='skills'>python</span>
+						<span class='skills'>tkinter</span>
+						<span class='skills'>game logic</span><br><br>
+						<span class='skills'>game design</span>
+					</div>
+					<div class='text'>
+						This group project is a simple search engine that searched through the university's webpages 
+						under the department of Information & Computer Science. I focused on the backend and developed 
+						the algorithms to weight, rank, and retrieve web pages based on the parsed search queries. There were challenges
+						we had to overcome such as scheduling conflicts. Despite the challenges, we overcame them and had such
+						a fun experience working in a group.<br><br>
+						<span class='skills'>python</span>
+						<span class='skills'>sql</span>
+						<span class='skills'>VS Code</span>
+						<span class='skills'>SEO</span><br><br>
+						<span class='skills'>information retrieval</span>
+					</div>
+					<div class='text'>
+						My personal website is the most current project I am working on. My vision for this website is to have it be a 
+						place where I can showcase my skills in web development and experiment with new design/animation ideas. I began to
+						study HTML/CSS and Javascript on my own on July 2019 and had my first working website by the end of August 2019.<br><br>
+						<span class='skills'>html</span>
+						<span class='skills'>css</span>
+						<span class='skills'>javascript</span>
+						<span class='skills'>jquery</span><br><br>
+						<span class='skills'>VS Code</span>
+						<span class='skills'>Invision Studio</span> 
+						<span class='skills'>web design</span>
+					</div>
+				</section>
 			</div>
-			<div class="pt-page pt-page-3">
+			<div class="page page-3">
 				<section class='scroll-pg-0'>
 					<div class='top-bar' style='text-align: center;'>
 						<span class='top-nav-active'>ABOUT ME</span>    
@@ -62,7 +116,7 @@
 				<section class='scroll-pg-1'>
 					<div class='divider divider-1'></div>
 					<h1 class = 'about-sections'>Education</h1>
-					<div class = 'profile-picture-container' data-aos='fade right'><img src='media/profile.jpeg' alt='Marissa Profile Picture' class='profile-picture'></div>
+					<div class = 'profile-picture-container'><img src='media/profile.jpeg' alt='Marissa Profile Picture' class='profile-picture'></div>
 					<div class = 'summary-container'><h1 class='profile-summary'>Education | University of California, Irvine<br><br>Graduation | June 2020<br><br>
 					Degree | B.S Computer Science<br><br>GPA | 3.4</h1></div>
 					</section>
@@ -157,5 +211,6 @@
 		</script>
 		<script src='js/text_animation.js'></script>
 		<script src="js/pagetransitions.js"></script>
+		<script src='js/project_link_animation.js'></script>
 	</body>
 </html>

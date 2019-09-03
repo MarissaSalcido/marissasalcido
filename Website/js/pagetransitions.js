@@ -1,9 +1,9 @@
 $(document).ready (function() {
 
-	var $main = $( '#pt-main' ),
-		$pages = $main.children( 'div.pt-page' ),
-		$iterate = $( '#iterateEffects' ),
-		$backtrack = $('#prevEffects'),
+	var $main = $( '#main' ),
+		$pages = $main.children( 'div.page' ),
+		$iterate = $( '#trans-right' ),
+		$backtrack = $('#trans-left'),
 		animcursor = 1,
 		pagesCount = $pages.length,
 		current = 0,
@@ -17,7 +17,7 @@ $(document).ready (function() {
 			$page.data( 'classesList', $page.attr( 'class' ) );
 		} );
 
-		$pages.eq( current ).addClass( 'pt-page-current' );
+		$pages.eq( current ).addClass( 'current-page' );
 
 		$iterate.on( 'click', function() {
 			if (!animationOn){
@@ -56,7 +56,7 @@ $(document).ready (function() {
 
 		}
 		
-		var $nextPage = $pages.eq( current ).addClass( 'pt-page-current' ),
+		var $nextPage = $pages.eq( current ).addClass( 'current-page' ),
 			outClass = '', inClass = '';
 
 		if (animation === 1){
@@ -82,7 +82,7 @@ $(document).ready (function() {
 
 	function resetPage( $outpage, $inpage ) {
 		$outpage.attr( 'class', $outpage.data( 'classesList' ) );
-		$inpage.attr( 'class', $inpage.data( 'classesList' ) + ' pt-page-current' );
+		$inpage.attr( 'class', $inpage.data( 'classesList' ) + ' current-page' );
 		animationOn = false;
 	}
 

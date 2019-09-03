@@ -1,0 +1,56 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400);
+.grid{
+  display: flex;
+  max-width: 100%;
+  padding-left: 135px;
+}
+.github-link{
+    padding: 100px;
+    width: 200px;
+    height: 150px;
+    margin-top: 10px;
+}
+.github-link img{
+    border-radius: 50%;
+}
+.github-link{
+    transition: transform 1s;
+}
+.github-link:hover{
+    transform:scale(1.2);
+    animation-duration: 800;
+}
+.bottom-arrow{
+    width: 100%;
+    padding-top: 8%;
+    padding-left: 48%;
+}
+.arrow{
+    width: 80px;
+    height: 60px;
+}
+.project-descr-container{
+    display: flex;
+    max-width: 100%;
+    padding-left: 165px;
+}
+.text{
+    padding: 20px;
+    width: 345px;
+    height: 600px;
+    margin-top: 10px;
+    border-color: white;
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    word-wrap: break-word;
+}
+.text .skills{
+    font-size: 18px;
+    border-style: solid;
+    border-color: #80a0d8;
+    border-radius: 6px;
+    border-width: 1px;
+    padding: 8px;
+}
