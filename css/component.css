@@ -18,7 +18,7 @@ html, body {
 	top: 0;
 	left: 0;
 	visibility: hidden;
-	overflow: hidden;
+	overflow: auto;
 	-webkit-backface-visibility: hidden;
 	-moz-backface-visibility: hidden;
 	backface-visibility: hidden;
@@ -36,25 +36,49 @@ html, body {
 	z-index: 1;
 }
 
-body {
-	overflow: auto;
-}
-
 .page-1 {
 	background-image: linear-gradient(to top,#fab9e8, #a6c1ee);
+	overflow: hidden;
 }
 
 .page-2 {
 	background-image: linear-gradient(to top,#fab9e8, #a6c1ee);
-	height: 100vh;
-	overflow-y: scroll;
+	overflow: scroll;
+}
+.page-2::-webkit-scrollbar { 
+    width: 8px; 
+} 
+.page-2::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+.page-2::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: white; 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
 }
 
 .page-3 {
 	background-image: linear-gradient(to top,#fab9e8, #a6c1ee);
-	height: 100vh;
-	overflow-y: scroll;
+	overflow: scroll;
 }
+.page-3::-webkit-scrollbar { 
+    width: 8px; 
+} 
+.page-3::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+.page-3::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: white; 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
 .lNavigation {
 	position: absolute;
 	width: 300px;
@@ -83,14 +107,14 @@ body {
 .arrow-button {
 	border: none;
 	font-size: 40px;
-	font-weight: 700;
+	font-weight: 300;
 	text-transform: uppercase;
 	padding: 0px 20px;
 	height: 60px;
 	border-radius: 50%;
 	cursor: pointer;
 	display: block;
-	font-family: 'Lato', Calibri, Arial, sans-serif;
+	font-family: 'HP Simplified';
 	box-shadow: 0 3px 0 rgba(0,0,0,0.1);
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;

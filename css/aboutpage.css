@@ -11,9 +11,10 @@ section{
     padding-top: 20px;
 }
 .intro{
-    position: relative;
-    top: 150px;
-    font-weight: 400;
+    position: absolute;
+    top: 35%;
+    left: 17%;
+    font-weight: 300;
     font-size: 35px;
 }
 .divider{
@@ -40,7 +41,7 @@ section{
     border-radius: 50%;
 }
 .summary-container{
-    position: relative;
+    position: absolute;
     width: 500px;
     padding-left: 55%;
     padding-top: 9%;
